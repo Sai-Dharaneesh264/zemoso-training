@@ -6,12 +6,12 @@ const start = () => {
 }
 
 
-const evaluate= async () => {
+const evaluate = async () => {
     console.log("entered the evaluate function");
     const name = document.querySelector("input").value;
     console.log(name);
     const p = document.querySelector("p")
-    fetch("./input.json").then((res) => {
+    await fetch("./input.json").then((res) => {
         return res.json();
     }).then((res) => {
        for (let i = 0; i < res.length; i++) {
