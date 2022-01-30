@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Table - 1",
+        "price": 0,
+        "count": 0,
+        "orders": []
+    },
+    {
+        "name": "Table - 2",
+        "price": 0,
+        "count": 0,
+        "orders": []
+    },
+    {
+        "name": "Table - 3",
+        "price": 0,
+        "count": 0,
+        "orders": []
+    },
+    {
+        "name": "Table - 4",
+        "price": 0,
+        "count": 0,
+        "orders": []
+    },
+    {
+        "name": "Table - 5",
+        "price": 0,
+        "count": 0,
+        "orders": []
+    },
+    {
+        "name": "Table - 6",
+        "price": 0,
+        "count": 0,
+        "orders": []
+    }
+
+]
+
+
+
+
+
+
+[
+    {
+        "name": "Butter Chicken",
+        "course": "main course",
+        "price": 300
+    },
+    {
+        "name": "Chicken Tikka Masala",
+        "course": "main course",
+        "price": 350
+    },
+    {
+        "name": "Dal Makhani",
+        "course": "main course",
+        "price": 200
+    },
+    {
+        "name": "Paneer Tikka",
+        "course": "starters",
+        "price": 250
+    },
+    {
+        "name": "Grilled Chicken Wings Recipe",
+        "course": "starters",
+        "price": 450
+    },
+    {
+        "name": "French Fries",
+        "course": "French",
+        "price": 300
+    },
+    {
+        "name": "Onion Thyme Soup",
+        "course": "French",
+        "price": 500
+    },
+    {
+        "name": "Chocolate Chip Cookies",
+        "course": "Dessert",
+        "price": 100
+    },
+    {
+        "name": "Pecan Pie",
+        "course": "Dessert",
+        "price": 140
+    },
+    {
+        "name": "Lassi",
+        "course": "Bevarages",
+        "price": 140
+    },
+    {
+        "name": "Fruit Juice",
+        "course": "Bevarages",
+        "price": 100
+    },
+    {
+        "name": "Coke",
+        "course": "Bevarages",
+        "price": 100
+    }
+]

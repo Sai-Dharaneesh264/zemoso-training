@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body onload="start()">
+    <div class="container">
+        <div class="table">
+            <h3>Tables</h3>
+            <input type="text" class='searchtables' onchange="searchTables(event)" placeholder="Search tables">
+            <div id="tables">
+            </div>
+        </div>
+        <div class="menu" id="menu">
+            <h3>Menu</h3>
+            <input type="text" class='searchFood' onchange="searchItems(event)" placeholder="Search menu... by course.. by food">
+            <div class="items" id="items">
+                <p id="end"></p>
+            </div>
+        </div>
+    </div>
+    <div class="bill">
+        <div class="top" id="top">
+            <p id="table-title"></p>
+            <button class="close"><img id="close" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAATlBMVEX///8AAAD5+flQUFBTU1MUFBTR0dHU1NQVFRW/v7/X19cEBATT09Px8fFsbGzs7OzFxcXl5eUoKChkZGQzMzMtLS11dXVqamre3t46OjpH/wiTAAAC5ElEQVR4nO3cCVbbMACE4SiACwlLoKz3vyi0L029yFpH8khv/gPY/iCxFUtPu51SSimllFJKKaWUUkoppZRSSimllFIK1HB6Qh/y+e6APqS34cWY4+Meecj9b2PM6y/kIf0NN+ZPV0DJ/urvIW8G3CH9nR1IydlRV3Jx4CQXR03JyIGSjBz1JBMHRjJx1JLMHAjJzFFHsnDkSxaOGhKLI1dicZSX3NsceRKr40dS9sn4aj1pjmTFYcwb8rrnHVZOmi5ZdRhT8l9yt3rWRInDYU7oqx/1vH7aJInLcXzAX///PqASl8O8l7j+sFPHSpwHu4b+RIg8eZxkUwdQsrEDJtncAZIQOCASCgdAQuLIltA4MiVEjiwJlSNDQuZIltA5EiWEjiQJpSNBQuqIltA6IiXEjigJtSNCQu4IltA7AiUNOIIkTTgCJI04vJJmHD5JOw6PpCFHqoTPkSZhdKRIOB3xElZHrITXESdhdsRIuB3hEnZHqITfESZpwREiacPhl7Ti8EnacXQD6eWj1cuXvZfbby8PxF6GKL0MGnsZxvfyw6qXn7q9vHzo5XVQLy/oenll6n7fft2MxDNvsG9F4p3/aEQSMI/ThCRoPqoBSeC8Gr0keH6QXBIxz0ktiZqvJZZEzjvTSqLnz0klCesAKCVJ6xkIJYnrMugkyetLyCQZ62SoJFnrfYgkmeuWaCTZ669IJIB1ZBQSyHo4AgloXd/mEtj6xI0lwHWWm0qg60W3lDxCT+2UfJS4/n89HbF/QqcEvuvVKMdWCWkfBZek5FYJA9jhlHxir33aC9jhkHwhr3vRygYvObeYFclt4V3crFvu5N0qrZLb4lu4WSS5t3yLpLzDIsl/dC0kNRwLCeIRPJPUccwkmKHERFLLMZGghkQjST3HSIIb2l0kNR0XCXKIepbUdex2hy/8FqDvP0PSt/q7mX7iN2V9ONVnKKWUUkoppZRSSimllFJKKaWUUkop1W3fIcgeMyx//uEAAAAASUVORK5CYII="/></button>
+        </div>
+        <div class="headings">
+            <p>S.No</p>
+            <p>Item</p>
+            <p>Price</p>
+            <p class="quantity">Quantity</p>
+            <p class="delete"></p>
+        </div>
+        <div class="item-list">
+            
+        </div>
+        <div class="total">
+            <p><span>Total Amount: </span><span></span></p>
+        </div>
+        <div class="generate">
+            <button>Generate Bill</button>
+        </div>
+    </div>
+    <div class="billgen" id="billgen">
+        <div><span>Total Amount is : </span><span></span></div>
+        <p>Please Visit Again :)</p>
+    </div>
+</body>
+</html>
